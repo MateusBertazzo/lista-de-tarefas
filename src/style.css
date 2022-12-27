@@ -17,3 +17,17 @@ h1 {
   margin-top: 16px;
   height: 30px;
 }
+
+div {
+  border: solid 1px black;
+  margin: 0 auto;
+  width: 200px;
+}
+
+ul {
+  display: inline-block;
+}
+
+li {
+  text-decoration: none;
+}
