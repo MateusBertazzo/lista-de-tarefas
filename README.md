@@ -1,1 +1,1 @@
-# lista-de-tarefas
+Lista de Tarefas simples usando JavaScript.
