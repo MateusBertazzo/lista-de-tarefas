@@ -1,0 +1,33 @@
+h1 {
+  margin-top: 76px; 
+  text-align: center;
+}
+
+.container {
+  justify-content: center;
+  display: flex;
+  gap: 5px;
+}
+
+.input-tarefa {
+  height: 25px;
+}
+
+.btn-tarefa{
+  margin-top: 16px;
+  height: 30px;
+}
+
+div {
+  border: solid 1px black;
+  margin: 0 auto;
+  width: 200px;
+}
+
+ul {
+  display: inline-block;
+}
+
+li {
+  text-decoration: none;
+}
