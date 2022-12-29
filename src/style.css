@@ -1,4 +1,9 @@
+body {
+  background-color: black;
+}
+
 h1 {
+  color: white;
   margin-top: 76px; 
   text-align: center;
 }
@@ -19,15 +24,25 @@ h1 {
 }
 
 div {
-  border: solid 1px black;
   margin: 0 auto;
   width: 200px;
 }
 
 ul {
+  text-decoration: none;
   display: inline-block;
 }
 
 li {
+  color: white;
+  font-size: 20px;
   text-decoration: none;
+}
+
+.checkedTask {
+  background-color: green;
+}
+
+.checkedTask::after {
+  content: ' ✔';
 }

@@ -8,6 +8,19 @@ const createLi = () => {
   return li;
 };
 
+// const children = task.childNodes;
+
+// children.addEventListener('click', function () {
+//   if (task.hasChildNodes()) {
+
+//   // const children = task.childNodes;
+
+//   for(let index = 0; index < children.length; index += 1) {
+//     children[index].classList.add('checkedTask')
+//     }
+//   };
+// })
+
 // Adiciona evento de keyPress ao pressionar ENTER
 inputTask.addEventListener('keypress', function(event) {
   if(event.keyCode === 13) {
@@ -27,6 +40,9 @@ const createTask = (textInput) => {
   const li = createLi();
   li.innerText = textInput;
   task.appendChild(li);
+  li.addEventListener('click', function () {
+    li.classList.add('checkedTask')
+  })
   clearInput();
 };
 
